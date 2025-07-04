@@ -1,0 +1,15 @@
+@import "./functions";
+@import "./variables";
+
+// mie aggiunte
+.hover-zindex-1 {
+  position: relative;
+  &:hover {
+    z-index: 1;
+  }
+}
+.bg-profile-nav {
+  background: linear-gradient(to bottom, #060606, #212529);
+}
+
+@import "./bootstrap.scss";
