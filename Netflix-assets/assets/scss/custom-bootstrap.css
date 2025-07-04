@@ -1,13 +1,18 @@
 @charset "UTF-8";
-.hover-zindex-1 {
-  position: relative;
-}
 .hover-zindex-1:hover {
-  z-index: 1;
+  box-shadow: 16px 13px 9px 7px #000000;
 }
 
 .bg-profile-nav {
   background: linear-gradient(to bottom, #060606, #212529);
+}
+
+.mx-width {
+  max-width: 650px;
+}
+
+.ml-titolo {
+  margin-left: 300px;
 }
 
 /*!
